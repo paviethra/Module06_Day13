@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+body{
+    font-family: 'Sarabun', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dff6;
+}
+.heading{
+    background-color: rgb(32, 31, 31);
+    width: 100vw;
+    height: 50px;
+    color: #F0F8FF;
+    text-align: center;
+    padding: 5px;
+}
+.form{
+    background-color: #fff;
+    width:600px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 110px auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.form__label{
+    width: 40%;
+    font-weight: bold;
+    padding:5px;
+    font-size: 17px;
+}
+
+.form_input{
+    width: 70%;
+    padding: 0px 10px;;
+}
+
+::placeholder{
+    padding: 10px;
+}
+.btn, .btn:hover{
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+}
